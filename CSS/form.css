@@ -1,0 +1,67 @@
+.forms_container{
+    display: flex;
+}
+
+.form_container_1  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    width: 50vw;
+    height: 100vh;
+}
+
+.form_container_2  {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    width: 50vw;
+    height: 100vh;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    border: 2px solid black;
+}
+
+.form_2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 30px;
+    border-radius: 30px;
+    font-size: 40px;
+    font-family: 'Bebas Neue', cursive;
+    border: 2px solid black;
+}
+
+#food_name {
+    width: 85%;
+    height: 40px;
+    font-size: 20px;
+}
+
+#amount {
+    width: 85%;
+    height: 40px;
+    font-size: 20px;
+}
+
+#calories {
+    width: 85%;
+    height: 40px;
+    font-size: 20px;
+}
